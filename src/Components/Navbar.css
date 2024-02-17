@@ -1,0 +1,82 @@
+.main{
+    width:100vw;
+    height:50px;
+    background-color:beige;
+    display: flex;
+}
+
+.logoimg{
+    margin-left: 20px;
+    margin-top: 05px;
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.navlinks{
+    margin-left: 40%;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul, li {
+    margin-left: 40px;
+}
+
+
+@media screen and (max-width:940px){
+.navlinks{
+    display: none;
+}    
+
+.hamburger_icons{
+    position: fixed;
+    right:30px;
+    top:15px
+}
+
+.mobile, ul{
+    display: flex;
+    flex-direction: column;
+}
+.mobile{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    z-index: 1000;
+}
+ul, li {
+    margin-top: 20px;
+    
+}
+
+.mobile , ul , li {
+    position: relative;
+    top:50px;
+}
+
+.logoimg {
+    position: relative;
+    left:150px
+
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:940px) {
+    .hamburger_icons{
+        display: none
+    }
+}
+
+
+
+
