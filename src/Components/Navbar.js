@@ -21,10 +21,10 @@ const Navbar = () => {
             <div className={Showmobileview ?  "mobile" : "navlinks"}>
                 <ul onClick={()=>setMobileView(false)}>
 
-                <Link to="/" style={{textDecoration:"none"}}><li>ABOUT</li> </Link>
-                <Link to="/skill" style={{textDecoration:"none"}}><li>SKILLS</li> </Link>
-                 <Link to ="/contact" style={{textDecoration:"none"}}><li>CONTACT</li> </Link>
-                <Link to="/projects" style={{textDecoration:"none"}}><li>PROJECTS</li> </Link>
+                <Link to="/"><li>ABOUT</li> </Link>
+                <Link to="/skill"><li>SKILLS</li> </Link>
+                 <Link to ="/contact"><li>CONTACT</li> </Link>
+                <Link to="/projects"><li>PROJECTS</li> </Link>
 
                 </ul>
             </div>

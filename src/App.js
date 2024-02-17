@@ -2,9 +2,9 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import About from './Components/About';
-import Skill from './Components/Skills';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
+import Skill from "./Components/Skills.js"
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
   <Navbar/>
 
   <Routes>
-<Route path="/" element={<About/>} />
-<Route path="/skill" element={<Skill/>} />
-<Route path="/contact" element={<Contact/>} />
-<Route path="/projects" element={<Projects/>} />
+<Route exact path="/" element={<About/>} />
+<Route exact path="/contact" element={<Contact/>} />
+<Route exact path="/projects" element={<Projects/>} />
+<Route exact path="/skill" element={<Skill/>} />
 
 
   </Routes>

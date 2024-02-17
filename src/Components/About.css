@@ -1,0 +1,11 @@
+.image{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+    border: 2px solid green;
+}
+
+.myimage {
+    display: flex;
+    justify-content: center;
+}
